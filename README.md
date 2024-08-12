@@ -1,44 +1,8 @@
-# johaiji_web
+# React + Vite
 
-## 1. プロジェクト概要
-- 目的: 技術的に優れたお寺のウェブサイトを作成し、ポートフォリオとして活用する
-- 対象: お寺の訪問者、ウェブ開発技術に興味のある人々
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 2. 技術スタック
-- フロントエンド: React
-- スタイリング: Tailwind CSS
-- ビルドツール: Vite
-- デプロイ: Vercel
+Currently, two official plugins are available:
 
-## 3. 開発フェーズ
-
-### フェーズ1: 基本構造とデザイン (2週間)
-- Reactプロジェクトのセットアップ
-- 基本的なコンポーネント構造の実装
-- レスポンシブデザインの適用
-
-### フェーズ2: コンテンツと最適化 (3週間)
-- 各ページのコンテンツ実装
-- パフォーマンス最適化
-- 基本的なアニメーションの追加
-
-### フェーズ3: 高度な機能 (4週間)
-- PWA機能の実装
-- データ管理 (ヘッドレスCMS統合)
-- 高度なアニメーションの追加
-
-### フェーズ4: 品質向上とデプロイ (3週間)
-- テストの実装 (Jest, React Testing Library)
-- CI/CDパイプラインのセットアップ
-- 最終的な最適化とデプロイ
-
-## 4. 主要なマイルストーン
-1. 基本的なサイト構造の完成 (フェーズ1終了時)
-2. 全ページのコンテンツ実装 (フェーズ2中盤)
-3. PWA機能の実装 (フェーズ3中盤)
-4. 本番環境へのデプロイ (フェーズ4終了時)
-
-## 5. 次のステップ
-- 開発環境のセットアップ
-- 基本的なコンポーネント設計
-- 最初のページ（ホーム）の実装開始
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
